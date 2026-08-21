@@ -14,3 +14,8 @@
 .google-row { display:flex; align-items:center; gap:12px }
 .brand-logo-sm { width:40px; height:40px; border-radius:50%; object-fit:cover; flex-shrink:0; box-shadow:var(--shadow) }
 @media(max-width:720px){ .google-row{ gap:9px } .brand-logo-sm{ width:32px; height:32px } }
+.brand-button,.mobile-brand { border:0; background:transparent; color:inherit; font:inherit; cursor:pointer; padding:0; display:flex; gap:8px; align-items:center; }
+.brand-button:hover,.mobile-brand:hover { opacity:.78; }
+.bubble a { color:var(--accent); text-decoration:underline; word-break:break-all }
+.signout-button { width:100%; margin-top:16px; padding:11px 14px; color:var(--ink); background:transparent; border:1px solid var(--line); border-radius:8px; text-align:left; font-weight:700; }
+.signout-button:hover { color:var(--accent); border-color:var(--accent); }
